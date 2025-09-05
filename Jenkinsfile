@@ -14,7 +14,7 @@ pipeline{
             }
         }
         stage("Test"){
-            Steps{
+            steps{
                 echo "Testing..."
             }
         }
@@ -25,3 +25,4 @@ pipeline{
         }
     }
 }
+
